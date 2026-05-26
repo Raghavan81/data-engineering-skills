@@ -38,16 +38,11 @@ A collection of Databricks data engineering skills and workflows, designed for i
    cp -r data-engineering-databricks-pipeline /path/to/your/skills/
    cp -r databricks-qa-pipeline /path/to/your/skills/
    ```
-
-   **For Hermes Agent users:**
-   ```bash
-   cp -r data-engineering-databricks-pipeline ~/.hermes/skills/data-engineering/
-   cp -r databricks-qa-pipeline ~/.hermes/skills/data-engineering/
    ```
 
 ## Usage
 
-Refer to the individual SKILL.md files within each directory for detailed usage instructions. These skills are designed to be integrated into various AI agent frameworks and development environments, including but not limited to Hermes Agent, Databricks Genie, and custom IDE implementations.
+Refer to the individual SKILL.md files within each directory for detailed usage instructions. These skills are designed to be integrated into various AI agent frameworks and development environments, including but not limited to Databricks Genie, and custom IDE implementations.
 
 ## License
 
