@@ -1,6 +1,6 @@
 # Data Engineering Skills
 
-A collection of Databricks data engineering skills for Hermes Agent, including pipeline development and QA automation.
+A collection of Databricks data engineering skills and workflows, designed for integration into various AI agent frameworks or development environments.
 
 ## Skills Included
 
@@ -30,9 +30,16 @@ A collection of Databricks data engineering skills for Hermes Agent, including p
 1. Clone this repository:
    ```bash
    git clone https://github.com/Raghavan81/data-engineering-skills.git
+   cd data-engineering-skills
    ```
 
-2. Copy the skill directories to your Hermes skills folder:
+2. Copy the skill directories to your preferred location (e.g., your project directory or your IDE's skills/plugins folder):
+   ```bash
+   cp -r data-engineering-databricks-pipeline /path/to/your/skills/
+   cp -r databricks-qa-pipeline /path/to/your/skills/
+   ```
+
+   **For Hermes Agent users:**
    ```bash
    cp -r data-engineering-databricks-pipeline ~/.hermes/skills/data-engineering/
    cp -r databricks-qa-pipeline ~/.hermes/skills/data-engineering/
@@ -40,7 +47,7 @@ A collection of Databricks data engineering skills for Hermes Agent, including p
 
 ## Usage
 
-These skills are designed to be used with Hermes Agent. Refer to the individual SKILL.md files within each directory for detailed usage instructions.
+Refer to the individual SKILL.md files within each directory for detailed usage instructions. These skills are designed to be integrated into various AI agent frameworks and development environments, including but not limited to Hermes Agent, Databricks Genie, and custom IDE implementations.
 
 ## License
 
